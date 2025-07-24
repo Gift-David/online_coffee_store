@@ -1,13 +1,12 @@
-# Online Coffe Store
-An online store for a coffee 
+# Online Coffee Store
+An online store for a coffee shop.
 
 ## Features
-This store has the following requirements
-### User
+This store has the following features;
+### General Features
 - Menu listings
 - Login/Signup features
 - View the store details (About and Contact)
-- 
 ### Admin Features
 - Manage Users
 - Manage Menu Listings
@@ -18,3 +17,4 @@ This store has the following requirements
 - Sqlite3
 
 ## Author: David Gift
+Backend Developer committed to building scalable, efficient and secure web apps.
