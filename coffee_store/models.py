@@ -23,7 +23,6 @@ class CustomUserManager(BaseUserManager):
         extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault("is_active", True)
         return self.create_user(username, password, **extra_fields)
-        # return user
 
 class CustomUser(AbstractBaseUser):
     username = models.CharField(max_length=100, unique=True)
@@ -40,7 +39,7 @@ class CustomUser(AbstractBaseUser):
     is_active = models.BooleanField(default=True)
 
     USERNAME_FIELD = 'username'
-    # REQUIRED_FIELDS = ['first_name', 'last_name', 'email', 'phone']
+    REQUIRED_FIELDS = ['first_name', 'last_name', 'email', 'phone']
 
     objects = CustomUserManager()
     
