@@ -54,7 +54,7 @@ class Menu(models.Model):
     description = models.TextField()
     price = models.FloatField()
     availability = models.BooleanField()
-    availble_servings = models.IntegerField()
+    available_servings = models.IntegerField()
 
 class Cart(models.Model):
     user = models.OneToOneField('CustomUser', on_delete=models.CASCADE)
