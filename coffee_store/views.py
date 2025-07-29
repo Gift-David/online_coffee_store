@@ -20,6 +20,14 @@ def add_menu(request):
         else:
             form = MenuForm()
     return render()
+
+def edit_menu(request):
+    pass
+
+def delete_menu(request):
+    pass
+
+def register():
     pass
 
 
